@@ -43,6 +43,7 @@ class TestUserRegister(object):
 
         alert.accept()
         sleep(5)
+        self.driver.close()
 
 
 # if __name__ == '__main__':

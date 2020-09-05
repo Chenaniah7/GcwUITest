@@ -15,7 +15,7 @@ class UserLoginPage(BasePage):
         BasePage.__init__(self, driver)
 
     def goto_login_page(self):
-        self.driver.get('http://118.126.89.129:8080/user/login')
+        self.driver.get('http://118.126.89.129:8080/jpress/user/login')
         self.driver.maximize_window()
 
     def input_username(self, username):
