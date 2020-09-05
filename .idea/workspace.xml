@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ce9803-e513-4379-8077-18340e85cd20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/testcases/pages/adminLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/pages/adminLoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/pages/userLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/pages/userLoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/pages/userRegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/pages/userRegisterPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/html_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/html_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/tests/test_AdminLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/tests/test_AdminLogin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/tests/test_Article.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/tests/test_Article.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/tests/test_UserRegister.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/tests/test_UserRegister.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598676091125</updated>
       <workItem from="1599199949403" duration="691000" />
-      <workItem from="1599269521032" duration="1471000" />
+      <workItem from="1599269521032" duration="4261000" />
     </task>
     <servers />
   </component>
@@ -76,21 +78,28 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1462" height="268" key="GridCell.Tab.0.bottom" timestamp="1598676812861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1711" height="316" key="GridCell.Tab.0.bottom" timestamp="1599277801085">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1462" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598676812861" />
-    <state width="1462" height="268" key="GridCell.Tab.0.center" timestamp="1598676812861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1711" height="316" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1599277801085" />
+    <state width="1711" height="316" key="GridCell.Tab.0.center" timestamp="1599277801085">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1462" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598676812861" />
-    <state width="1462" height="268" key="GridCell.Tab.0.left" timestamp="1598676812861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1711" height="316" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1599277801085" />
+    <state width="1711" height="316" key="GridCell.Tab.0.left" timestamp="1599277801085">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1462" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598676812861" />
-    <state width="1462" height="268" key="GridCell.Tab.0.right" timestamp="1598676812861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1711" height="316" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1599277801085" />
+    <state width="1711" height="316" key="GridCell.Tab.0.right" timestamp="1599277801085">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1462" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598676812861" />
+    <state width="1711" height="316" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1599277801085" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GcwUITest$main.coverage" NAME="main Coverage Results" MODIFIED="1599277656614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

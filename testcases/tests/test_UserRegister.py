@@ -16,7 +16,7 @@ class TestUserRegister(object):
     ]
 
     def setup_class(self) -> None:
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.registerPage = UserRegisterPage(self.driver)
         self.registerPage.goto_register_page()
 
@@ -31,7 +31,7 @@ class TestUserRegister(object):
         self.registerPage.input_confirmPwd(confirmPwd)
 
         if captcha != '666':
-            captcha = util.get_code(self.driver, 'captchaimg')
+            captcha = util.get_code(self.driver, '//form[@class="autoAjaxSubmit"]/div[5]/img')
 
         self.registerPage.input_captcha(captcha)
         self.registerPage.click_register_btn()
@@ -43,7 +43,7 @@ class TestUserRegister(object):
 
         alert.accept()
         sleep(5)
-        self.driver.close()
+        self.driver.quit()
 
 
 # if __name__ == '__main__':

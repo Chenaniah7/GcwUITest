@@ -29,7 +29,7 @@ def get_logger():
     return logger
 
 
-def get_code(driver, id):
+def get_code(driver, xpath):
     # 获取验证码图片
     t = time.time()
     path = os.path.dirname(os.path.dirname(__file__)) + '\\screenshots'
@@ -37,7 +37,7 @@ def get_code(driver, id):
 
     driver.save_screenshot(picture_name1)
 
-    ce = driver.find_element_by_id(id)
+    ce = driver.find_element_by_xpath(xpath)
 
     left = ce.location['x']
     top = ce.location['y']
