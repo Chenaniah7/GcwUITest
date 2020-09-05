@@ -11,7 +11,7 @@ class TestUserLogin(object):
 
     login_data=[
         ('','123456','账号不能为空'),
-        ('gcw', 'gcw60777', '用户中心'),
+        ('admin', 'gcw60777', '用户中心'),
     ]
 
     def setup_class(self) -> None:

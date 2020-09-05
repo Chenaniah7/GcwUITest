@@ -14,7 +14,7 @@ class TestAdminLogin(object):
 
     admin_login_data=[
         ('admin', '123456', '666', '验证码不正确，请重新输入'),
-        ('gcw', 'gcw60777', '111', 'JPress后台'),
+        ('admin', 'gcw60777', '111', 'JPress后台'),
     ]
 
     def setup_class(self) -> None:
